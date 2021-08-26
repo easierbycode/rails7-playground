@@ -10,6 +10,7 @@ Rails.application.config.importmap.draw do
   pin_all_from "app/javascript/components", under: "components"
 
   pin "application"
+  pin "rich_text"
 
   # Use libraries available via the asset pipeline (locally or via gems).
   # pin "@rails/actioncable", to: "actioncable.esm.js"
