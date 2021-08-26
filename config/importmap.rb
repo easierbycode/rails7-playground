@@ -20,6 +20,8 @@ Rails.application.config.importmap.draw do
   pin 'md5', to: 'https://cdn.skypack.dev/md5'
   pin "vue", to: "https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.esm.browser.js"
   pin "d3", to: "https://esm.sh/d3?bundle"
+  pin 'react', to: 'https://cdn.skypack.dev/react/mode=imports'
+  pin 'react-dom', to: 'https://cdn.skypack.dev/react-dom/mode=imports'
 
   # Pin vendored modules by first adding the following to app/assets/config/manifest.js:
   # //= link_tree ../../../vendor/assets/javascripts .js
