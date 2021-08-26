@@ -8,3 +8,5 @@ import "@rails/actiontext"
 
 import '@hotwired/stimulus-importmap-autoloader'
 import '@hotwired/turbo-rails'
+
+import  "components/vue_components"
