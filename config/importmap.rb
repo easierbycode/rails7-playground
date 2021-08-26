@@ -14,6 +14,7 @@ Rails.application.config.importmap.draw do
   # pin "@rails/activestorage", to: "activestorage.esm.js"
 
   # Use libraries directly from JavaScript CDNs (see https://www.skypack.dev, https://esm.sh, https://www.jsdelivr.com/esm)
+  pin 'md5', to: 'https://cdn.skypack.dev/md5'
   # pin "vue", to: "https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.esm.browser.js"
   # pin "d3", to: "https://esm.sh/d3?bundle"
 
